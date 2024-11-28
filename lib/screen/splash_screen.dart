@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -13,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: SafeArea(
           child: Center(
-        child: Text("Halo"),
+        child: Lottie.asset("assets/splash/splash_screen.json", width: 250),
       )),
     );
   }
