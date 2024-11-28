@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sampahku/pages/scan.dart';
+import 'package:sampahku/screen/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scanpage(),
+      home: SplashScreen(),
     );
   }
 }
