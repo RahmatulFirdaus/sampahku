@@ -12,7 +12,7 @@ class _IntroState extends State<Intro> {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: SafeArea(
-          child: const Center(
+          child: Center(
         child: Text("Ini Intro"),
       )),
     );
